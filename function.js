@@ -1,4 +1,4 @@
-            // first-class ticket increase-decrease
+            // first-class ticket functionality
 
             document.getElementById('firstclasstkt-increase').addEventListener('click', function(){
                 handleFirstClassTicketCounting(true)
@@ -21,7 +21,7 @@
            }
        
     
-                 //economy-ticket increase-decrease
+                 //economy-ticket functionality
     
     
     document.getElementById('economytkt-increase').addEventListener('click', function(){
@@ -58,5 +58,7 @@
                document.getElementById('total').innerText = '$' + total;
              }
              document.getElementById('confirm').addEventListener('click', function(){
-                    alert('you have confirmed your ticket booking')
+               
+                    alert('you have confirmed your ticket booking');
+                    
              })
